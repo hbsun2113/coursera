@@ -4,5 +4,5 @@ git commit -m "bk"
 git push
 if [[ "$?" != *"Done"* ]]
 then
-  exit
+  exit -1
 fi
